@@ -402,7 +402,7 @@ Lets create a mail notification;
 ==============================
 Goto Gmail ---> Click on Icon on top right ---> Click on 'Your google account' ---> 'Security' (left pane) --->Make sure 2 step verification is on.
 
-Goto Gmail ---> Click on Icon on top right ---> Click on 'Your google account' ---> in search box at top, search for 'App  Passwords' and click on it, Enter password of gmail ---> Next ---> App name: jenkins ---> Create ---> You can see the password (ex: cnogwakwhioutssv) ---> Copy it ---> Make sure to remove the spaces in the password. Lets configure this password in Jenkins.
+Goto Gmail ---> Click on Icon on top right ---> Click on 'Your google account' ---> in search box at top, search for 'App  Passwords' and click on it, Enter password of gmail ---> Next ---> App name: jenkins ---> Create ---> You can see the password (ex: ueqxiqrwtwplsgt) ---> Copy it ---> Make sure to remove the spaces in the password. Lets configure this password in Jenkins.
 
 Manage Jenkins ---> System ---> Scroll down to 'Email Notification' ---> SMTP Server: smtp.gmail.com ---> Click on 'Advanced'  ---> 'Check' Use SMTP Authentication, Username: <ProvideEmailID>, Password: <PasteThePasswordToken>, 'Check' Use SSL, SMTP Port: 465, Reply-to-email: <ProvideEmail>, Charset: UTF-8,, Check 'Test configuration by sending test e-mail', Test Email Recepient: <provide-email-id>, Click on 'Test Configuration' ---> You can see 'email sent' ---> Goto email and check for test email
 
