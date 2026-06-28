@@ -1,5 +1,5 @@
 # Use Maven-based image for building
-FROM maven:3.8.7-eclipse-temurin-21 AS builder
+FROM maven:3.9.9-eclipse-temurin-21 AS builder
 
 # Set the working directory
 WORKDIR /usr/src/app
