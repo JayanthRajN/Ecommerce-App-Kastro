@@ -348,7 +348,7 @@ Goto the Jenkins console (since we restarted, login again to Jenkins) ---> Manag
 ==========================================
 Lets configure the SonarQube server;
 Goto SonarQube console --- Click on 'Administration' --- Click on 'Security' --- Select 'Users' --- You can see 'Tokens' --- Click on 3 dashes icon --- A New dialogue --- Name: token, Expires in: 90days --- Generate --- You can see token in green colour. Copy it. 
-Token: squ_dcc638876ea585af501be08adbb861667932da03
+Token: squ_4c37cf444b7bf64549f1b8a252cc3e17ee5665d1
 
 Manage Jenkins --- Security --- Credentials --- Click on 'global' --- Click on 'Add Credentials' --- Kind: Secret text, Scope: Global, Secret: <Paste the token copied from SonarQube console>, ID: sonar-token, Description: sonar-token --- Create
 
